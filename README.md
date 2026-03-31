@@ -3,7 +3,7 @@
 Welcome to my portfolio repository! This project is a custom-built HTML/CSS website designed to showcase my technical skills, academic background, and professional experience as I seek a 14-week internship opportunity.
 
 ## 🚀 Live Demo
-You can view the live site here: [Insert your GitHub Pages link here]
+You can view the live site here: https://minz02.github.io/My-Portfolio/
 
 ## 🛠️ Built With
 * **HTML5 & CSS3** - Custom styling with a focus on dark-mode aesthetics.
