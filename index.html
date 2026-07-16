@@ -544,6 +544,33 @@
     line-height: 1.6;
   }
 
+  /* ── GALLERY ── */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+  }
+
+  .gallery-card {
+    position: relative;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+  }
+
+  .gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .gallery-card:hover img {
+    transform: scale(1.08);
+  }
+
   /* ── CONTACT ── */
   .contact-wrapper {
     display: grid;
@@ -687,6 +714,7 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#gallery">Gallery</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -997,9 +1025,49 @@
 
 <div class="divider"></div>
 
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-label">05 · Life & Memories</div>
+  <h2 class="section-title">Gallery</h2>
+  <div class="gallery-grid">
+    <div class="gallery-card glass-card">
+      <img src="FB_IMG_1727324286585_2.jpg" alt="Gallery Memory 1" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="IMG-20230607-WA0006_2.jpg" alt="Gallery Memory 2" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-06-55_2.jpg" alt="Gallery Memory 3" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-06-59_2.jpg" alt="Gallery Memory 4" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-07-04_2.jpg" alt="Gallery Memory 5" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-07-09_2.jpg" alt="Gallery Memory 6" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-07-12_2.jpg" alt="Gallery Memory 7" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-07-16_2.jpg" alt="Gallery Memory 8" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-07-19.jpg" alt="Gallery Memory 9" loading="lazy">
+    </div>
+    <div class="gallery-card glass-card">
+      <img src="photo_2026-04-15_09-07-22.jpg" alt="Gallery Memory 10" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
 <!-- CONTACT -->
 <section id="contact">
-  <div class="section-label">05 · Let's Connect</div>
+  <div class="section-label">06 · Let's Connect</div>
   <h2 class="section-title">Get In<br>Touch</h2>
   <div class="contact-wrapper">
     <div class="contact-block glass-card">
